@@ -629,6 +629,20 @@ progress {
   color: #6c757d;
 }
 
+.video-fluid {
+  width: 100%    !important;
+  height: auto   !important;
+}
+
+.video-fluid-portrait {
+  width: auto    !important;
+  height: 50%   !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+}
+
 .container,
 .container-fluid,
 .container-xxl,
